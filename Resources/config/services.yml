@@ -1,0 +1,6 @@
+parameters:
+    tracker_hub.class: TrackerHub\TrackerHub
+
+services:
+    tracker_hub:
+        class: %tracker_hub.class%

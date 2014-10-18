@@ -1,0 +1,25 @@
+{
+    "name":         "beeketing/tracker-hub-bundle",
+    "description":  "This bundle provides an integration of the TrackerHub library",
+    "keywords":     ["tracker", "mixpanel", "indicative"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":     "Beekeitng",
+            "homepage": "http://beeketing.com"
+        },
+        {
+            "name":     "Quan MT",
+            "email":    "quanmt@brodev.com"
+        }
+    ],
+    "require":      {
+        "beeketing/tracker-hub": "dev-master",
+        "symfony/framework-bundle": "~2.0"
+    },
+    "autoload":     {
+        "psr-0": { "BK\\TrackerHubBundle": "" }
+    },
+    "minimum-stability": "dev"
+}

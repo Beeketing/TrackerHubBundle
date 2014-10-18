@@ -1,0 +1,17 @@
+parameters:
+    bk_tracker_hub.client.customerio.class: TrackerHub\Client\CustomerIO
+    bk_tracker_hub.client.mixpanel.class: TrackerHub\Client\Mixpanel
+    bk_tracker_hub.client.indicative.class: TrackerHub\Client\Indicative
+
+services:
+    bk_tracker_hub.client.customerio.def:
+        class: %bk_tracker_hub.client.customerio.class%
+        abstract: true
+
+    bk_tracker_hub.client.mixpanel.def:
+        class: %bk_tracker_hub.client.mixpanel.class%
+        abstract: true
+
+    bk_tracker_hub.client.indicative.def:
+        class: %bk_tracker_hub.client.indicative.class%
+        abstract: true
