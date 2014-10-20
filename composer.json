@@ -21,5 +21,6 @@
     "autoload":     {
         "psr-0": { "BK\\TrackerHubBundle": "" }
     },
+    "target-dir": "BK/TrackerHubBundle",
     "minimum-stability": "dev"
 }
