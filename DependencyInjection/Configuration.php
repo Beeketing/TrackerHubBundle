@@ -34,6 +34,14 @@ class Configuration implements ConfigurationInterface
                 ->arrayNode('clients')
                     ->children()
 
+                        // Beeketing
+                        ->arrayNode('beeketing')
+                            ->children()
+                                ->scalarNode('api_key')->end()
+                                ->scalarNode('base_url')->end()
+                            ->end()
+                        ->end()
+
                         // Customer.io
                         ->arrayNode('customerio')
                             ->children()

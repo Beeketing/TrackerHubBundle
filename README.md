@@ -12,6 +12,10 @@ Set trackers settings in your config file
 
 bk_tracker_hub:
     clients:
+        beeketing:
+            base_url: %beeketing_base_url%
+            api_key: %beeketing_api_key%
+
         customerio:
             site_id: %customer_io_site_id%
             api_key: %customer_io_api_key%
