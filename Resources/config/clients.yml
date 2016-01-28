@@ -6,7 +6,7 @@ parameters:
 
 services:
     bk_tracker_hub.client.beeketing.def:
-        class: %bk_tracker_hub.client.indicative.class%
+        class: %bk_tracker_hub.client.beeketing.class%
         abstract: true
 
     bk_tracker_hub.client.customerio.def:
